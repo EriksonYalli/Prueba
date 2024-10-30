@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [15/Oct/2024:08:14:53 -0500] "GET /DemoMVC HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [15/Oct/2024:08:14:58 -0500] "GET /DemoMVC/ HTTP/1.1" 200 529
+0:0:0:0:0:0:0:1 - - [15/Oct/2024:08:14:58 -0500] "GET /DemoMVC/css/styles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Oct/2024:08:14:58 -0500] "GET /favicon.ico HTTP/1.1" 404 610
+0:0:0:0:0:0:0:1 - - [15/Oct/2024:08:15:07 -0500] "GET /DemoMVC/controlador?accion=listar HTTP/1.1" 200 11293
+0:0:0:0:0:0:0:1 - - [15/Oct/2024:08:15:23 -0500] "GET /DemoMVC/controlador?accion=editar&id=2 HTTP/1.1" 200 14730
+0:0:0:0:0:0:0:1 - - [15/Oct/2024:08:15:28 -0500] "GET /DemoMVC/controlador?accion=listar HTTP/1.1" 200 11293
+0:0:0:0:0:0:0:1 - - [15/Oct/2024:08:15:31 -0500] "GET /DemoMVC/controlador?accion=eliminar&id=6 HTTP/1.1" 200 11293
+0:0:0:0:0:0:0:1 - - [15/Oct/2024:08:15:36 -0500] "GET /DemoMVC/controlador?accion=Restore&id=6 HTTP/1.1" 200 11293
+0:0:0:0:0:0:0:1 - - [15/Oct/2024:08:15:46 -0500] "GET /DemoMVC/controlador?accion=eliminar&id=6 HTTP/1.1" 200 11293
+0:0:0:0:0:0:0:1 - - [15/Oct/2024:08:15:52 -0500] "GET /DemoMVC/controlador?accion=Restore&id=6 HTTP/1.1" 200 11293
+0:0:0:0:0:0:0:1 - - [15/Oct/2024:08:27:42 -0500] "GET /DemoMVC/controlador?accion=editar&id=2 HTTP/1.1" 200 14730
+0:0:0:0:0:0:0:1 - - [15/Oct/2024:08:28:30 -0500] "GET /DemoMVC/controlador?accion=listar HTTP/1.1" 200 11293

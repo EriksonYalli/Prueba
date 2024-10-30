@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="C:/Users/willi/OneDrive/Escritorio/coronel/TP1_232_GC/Alternancia2/DemoMVC/src/main/webapp">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="C:/Users/willi/OneDrive/Escritorio/coronel/TP1_232_GC/Alternancia2/DemoMVC/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="C:/Users/willi/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jstl-1.2.jar"/>
+    <PostResources base="C:/Users/willi/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jstl-1.2.jar"/>
+    <PostResources base="C:/Users/willi/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/12.8.0.jre11/mssql-jdbc-12.8.0.jre11.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mssql-jdbc-12.8.0.jre11.jar"/>
+  </Resources>
+</Context>
