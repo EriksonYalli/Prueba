@@ -1,0 +1,5 @@
+30-Oct-2024 00:10:29.299 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Oct-2024 00:10:29.331 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+30-Oct-2024 00:10:29.336 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+30-Oct-2024 00:10:29.337 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Oct-2024 00:10:29.340 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

@@ -1,0 +1,1181 @@
+29-Oct-2024 15:41:24.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 15:41:24.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 15:41:24.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 15:41:24.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 15:41:24.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 15:41:24.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 15:41:24.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 15:41:24.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 15:41:24.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 15:41:24.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 15:41:24.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 15:41:24.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 15:41:24.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 15:41:24.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 15:41:24.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 15:41:24.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 15:41:24.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 15:41:24.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 15:41:24.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 15:41:24.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 15:41:24.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 15:41:24.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=51003:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 15:41:24.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 15:41:24.822 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 15:41:24.822 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 15:41:24.822 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 15:41:24.846 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 15:41:25.043 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 15:41:25.059 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [461] milliseconds
+29-Oct-2024 15:41:25.104 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 15:41:25.104 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 15:41:25.113 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 15:41:26.171 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 15:41:26.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.204] ms
+29-Oct-2024 15:41:26.325 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 15:41:26.371 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1312] milliseconds
+29-Oct-2024 15:50:10.266 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 15:50:10.303 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 15:50:10.311 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 15:50:10.316 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 15:50:10.340 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 15:50:12.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 15:50:12.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 15:50:12.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 15:50:12.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 15:50:12.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 15:50:12.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 15:50:12.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 15:50:12.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 15:50:12.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 15:50:12.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 15:50:12.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 15:50:12.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 15:50:12.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 15:50:12.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 15:50:12.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 15:50:12.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 15:50:12.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 15:50:12.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 15:50:12.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 15:50:12.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 15:50:12.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 15:50:12.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=51279:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 15:50:12.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 15:50:12.651 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 15:50:12.655 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 15:50:12.656 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 15:50:12.671 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 15:50:13.020 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 15:50:13.041 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [617] milliseconds
+29-Oct-2024 15:50:13.087 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 15:50:13.087 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 15:50:13.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 15:50:14.123 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 15:50:14.240 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.144] ms
+29-Oct-2024 15:50:14.243 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 15:50:14.294 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1252] milliseconds
+29-Oct-2024 15:56:15.925 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 15:56:15.954 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 15:56:15.960 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 15:56:15.963 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 15:56:15.966 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 15:56:17.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 15:56:17.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 15:56:17.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 15:56:17.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 15:56:17.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 15:56:17.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 15:56:17.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 15:56:17.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 15:56:17.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 15:56:17.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 15:56:17.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 15:56:17.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 15:56:17.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 15:56:17.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 15:56:17.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 15:56:17.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 15:56:17.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 15:56:17.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 15:56:17.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 15:56:17.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 15:56:17.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 15:56:17.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=51383:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 15:56:17.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 15:56:17.809 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 15:56:17.809 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 15:56:17.809 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 15:56:17.813 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 15:56:18.046 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 15:56:18.066 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [442] milliseconds
+29-Oct-2024 15:56:18.124 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 15:56:18.124 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 15:56:18.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 15:56:19.140 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 15:56:19.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.132] ms
+29-Oct-2024 15:56:19.272 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 15:56:19.317 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1250] milliseconds
+29-Oct-2024 16:00:53.685 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 16:00:53.714 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 16:00:53.721 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 16:00:53.724 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 16:00:55.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 16:00:55.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 16:00:55.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 16:00:55.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 16:00:55.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 16:00:55.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 16:00:55.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 16:00:55.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 16:00:55.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 16:00:55.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 16:00:55.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 16:00:55.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 16:00:55.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 16:00:55.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 16:00:55.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 16:00:55.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 16:00:55.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 16:00:55.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 16:00:55.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 16:00:55.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 16:00:55.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 16:00:55.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=51530:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 16:00:55.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 16:00:55.378 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 16:00:55.378 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 16:00:55.378 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 16:00:55.383 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 16:00:55.630 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 16:00:55.649 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [456] milliseconds
+29-Oct-2024 16:00:55.693 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 16:00:55.693 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 16:00:55.701 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 16:00:56.669 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 16:00:56.794 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.091] ms
+29-Oct-2024 16:00:56.797 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 16:00:56.841 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1191] milliseconds
+29-Oct-2024 16:20:41.375 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 16:20:41.404 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 16:20:41.411 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 16:20:41.417 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 16:20:41.441 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 16:20:43.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 16:20:43.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 16:20:43.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 16:20:43.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 16:20:43.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 16:20:43.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 16:20:43.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 16:20:43.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 16:20:43.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 16:20:43.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 16:20:43.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 16:20:43.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 16:20:43.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 16:20:43.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 16:20:43.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 16:20:43.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 16:20:43.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 16:20:43.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 16:20:43.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 16:20:43.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 16:20:43.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 16:20:43.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=51936:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 16:20:43.444 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 16:20:43.448 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 16:20:43.448 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 16:20:43.448 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 16:20:43.454 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 16:20:43.696 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 16:20:43.720 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [490] milliseconds
+29-Oct-2024 16:20:43.768 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 16:20:43.768 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 16:20:43.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 16:20:44.932 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 16:20:45.108 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.329] ms
+29-Oct-2024 16:20:45.113 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 16:20:45.181 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1461] milliseconds
+29-Oct-2024 17:18:52.017 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:18:52.051 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 17:18:52.070 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 17:18:52.089 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:18:52.099 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:18:54.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 17:18:54.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 17:18:54.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 17:18:54.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 17:18:54.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 17:18:54.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 17:18:54.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 17:18:54.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 17:18:54.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 17:18:54.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:18:54.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 17:18:54.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 17:18:54.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 17:18:54.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 17:18:54.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 17:18:54.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 17:18:54.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 17:18:54.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:18:54.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 17:18:54.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 17:18:54.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 17:18:54.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=52590:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 17:18:54.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 17:18:54.140 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 17:18:54.140 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 17:18:54.140 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 17:18:54.145 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 17:18:54.414 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 17:18:54.434 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [489] milliseconds
+29-Oct-2024 17:18:54.482 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 17:18:54.482 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 17:18:54.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 17:18:55.611 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 17:18:55.726 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.234] ms
+29-Oct-2024 17:18:55.729 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:18:55.774 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1339] milliseconds
+29-Oct-2024 17:18:57.962 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:18:57.990 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 17:18:57.999 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:18:58.004 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:18:58.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 17:18:58.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 17:18:58.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 17:18:58.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 17:18:58.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 17:18:58.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 17:18:58.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 17:18:58.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 17:18:58.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 17:18:58.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:18:58.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 17:18:59.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 17:18:59.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 17:18:59.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 17:18:59.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 17:18:59.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 17:18:59.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 17:18:59.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:18:59.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 17:18:59.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 17:18:59.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 17:18:59.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=52594:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 17:18:59.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 17:18:59.010 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 17:18:59.010 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 17:18:59.010 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 17:18:59.019 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 17:18:59.330 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 17:18:59.358 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [531] milliseconds
+29-Oct-2024 17:18:59.421 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 17:18:59.421 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 17:18:59.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 17:19:00.491 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 17:19:00.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.175] ms
+29-Oct-2024 17:19:00.614 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:19:00.662 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1304] milliseconds
+29-Oct-2024 17:22:45.242 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:22:45.271 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 17:22:45.278 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:22:45.282 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:22:48.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 17:22:48.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 17:22:48.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 17:22:48.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 17:22:48.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 17:22:48.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 17:22:48.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 17:22:48.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 17:22:48.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 17:22:48.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:22:48.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 17:22:48.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 17:22:48.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 17:22:48.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 17:22:48.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 17:22:48.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 17:22:48.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 17:22:48.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:22:48.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 17:22:48.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 17:22:48.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 17:22:48.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=52631:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 17:22:48.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 17:22:48.080 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 17:22:48.080 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 17:22:48.080 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 17:22:48.084 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 17:22:48.280 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 17:22:48.304 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [381] milliseconds
+29-Oct-2024 17:22:48.356 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 17:22:48.356 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 17:22:48.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 17:22:49.333 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 17:22:49.439 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.071] ms
+29-Oct-2024 17:22:49.442 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:22:49.485 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1181] milliseconds
+29-Oct-2024 17:32:14.458 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:32:14.487 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 17:32:14.498 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 17:32:14.501 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:32:14.516 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:32:16.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 17:32:16.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 17:32:16.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 17:32:16.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 17:32:16.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 17:32:16.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 17:32:16.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 17:32:16.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 17:32:16.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 17:32:16.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:32:16.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 17:32:16.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 17:32:16.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 17:32:16.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 17:32:16.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 17:32:16.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 17:32:16.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 17:32:16.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:32:16.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 17:32:16.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 17:32:16.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 17:32:16.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=52814:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 17:32:16.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 17:32:16.291 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 17:32:16.292 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 17:32:16.292 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 17:32:16.297 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 17:32:16.532 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 17:32:16.549 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [481] milliseconds
+29-Oct-2024 17:32:16.593 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 17:32:16.593 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 17:32:16.602 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 17:32:17.590 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 17:32:17.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.111] ms
+29-Oct-2024 17:32:17.718 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:32:17.767 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1218] milliseconds
+29-Oct-2024 17:35:15.105 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:35:15.133 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 17:35:15.138 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 17:35:15.141 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:35:15.144 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:35:17.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 17:35:17.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 17:35:17.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 17:35:17.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 17:35:17.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 17:35:17.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 17:35:17.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 17:35:17.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 17:35:17.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 17:35:17.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:35:17.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 17:35:17.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 17:35:17.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 17:35:17.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 17:35:17.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 17:35:17.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 17:35:17.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 17:35:17.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:35:17.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 17:35:17.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 17:35:17.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 17:35:17.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=52861:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 17:35:17.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 17:35:17.042 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 17:35:17.042 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 17:35:17.042 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 17:35:17.047 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 17:35:17.268 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 17:35:17.291 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [435] milliseconds
+29-Oct-2024 17:35:17.345 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 17:35:17.345 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 17:35:17.356 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 17:35:18.587 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 17:35:18.719 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.362] ms
+29-Oct-2024 17:35:18.722 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:35:18.778 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1486] milliseconds
+29-Oct-2024 17:37:03.577 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:37:03.605 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 17:37:03.611 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 17:37:03.614 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:37:03.617 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:37:05.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 17:37:05.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 17:37:05.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 17:37:05.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 17:37:05.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 17:37:05.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 17:37:05.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 17:37:05.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 17:37:05.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 17:37:05.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:37:05.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 17:37:05.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 17:37:05.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 17:37:05.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 17:37:05.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 17:37:05.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 17:37:05.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 17:37:05.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:37:05.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 17:37:05.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 17:37:05.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 17:37:05.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=52904:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 17:37:05.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 17:37:05.794 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 17:37:05.795 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 17:37:05.795 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 17:37:05.799 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 17:37:06.036 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 17:37:06.058 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [442] milliseconds
+29-Oct-2024 17:37:06.102 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 17:37:06.103 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 17:37:06.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 17:37:07.209 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 17:37:07.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.211] ms
+29-Oct-2024 17:37:07.327 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:37:07.373 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1313] milliseconds
+29-Oct-2024 17:38:04.454 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:38:04.481 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 17:38:04.486 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 17:38:04.489 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:38:04.492 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:38:06.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 17:38:06.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 17:38:06.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 17:38:06.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 17:38:06.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 17:38:06.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 17:38:06.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 17:38:06.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 17:38:06.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 17:38:06.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:38:06.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 17:38:06.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 17:38:06.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 17:38:06.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 17:38:06.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 17:38:06.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 17:38:06.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 17:38:06.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:38:06.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 17:38:06.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 17:38:06.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 17:38:06.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=52931:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 17:38:06.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 17:38:06.763 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 17:38:06.763 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 17:38:06.763 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 17:38:06.770 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 17:38:07.005 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 17:38:07.031 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [465] milliseconds
+29-Oct-2024 17:38:07.073 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 17:38:07.073 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 17:38:07.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 17:38:08.123 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 17:38:08.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.153] ms
+29-Oct-2024 17:38:08.241 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:38:08.291 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1259] milliseconds
+29-Oct-2024 17:40:38.948 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:40:38.976 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 17:40:38.981 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 17:40:38.985 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:40:38.988 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:40:40.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 17:40:40.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 17:40:40.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 17:40:40.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 17:40:40.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 17:40:40.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 17:40:40.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 17:40:40.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 17:40:40.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 17:40:40.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:40:40.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 17:40:40.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 17:40:40.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 17:40:40.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 17:40:40.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 17:40:40.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 17:40:40.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 17:40:40.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 17:40:40.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 17:40:40.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 17:40:40.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 17:40:40.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=52974:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 17:40:40.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 17:40:40.791 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 17:40:40.791 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 17:40:40.791 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 17:40:40.797 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 17:40:41.028 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 17:40:41.048 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [446] milliseconds
+29-Oct-2024 17:40:41.090 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 17:40:41.090 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 17:40:41.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 17:40:42.137 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 17:40:42.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.181] ms
+29-Oct-2024 17:40:42.284 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 17:40:42.337 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1288] milliseconds
+29-Oct-2024 18:05:45.360 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:05:45.388 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 18:05:45.394 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 18:05:45.397 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:05:45.403 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:05:48.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 18:05:48.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 18:05:48.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 18:05:48.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 18:05:48.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 18:05:48.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 18:05:48.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 18:05:48.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 18:05:48.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 18:05:48.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:05:48.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 18:05:48.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 18:05:48.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 18:05:48.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 18:05:48.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 18:05:48.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 18:05:48.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 18:05:48.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:05:48.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 18:05:48.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 18:05:48.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 18:05:48.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=53186:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 18:05:48.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 18:05:48.281 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 18:05:48.281 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 18:05:48.281 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 18:05:48.286 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 18:05:48.495 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 18:05:48.512 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [421] milliseconds
+29-Oct-2024 18:05:48.554 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 18:05:48.554 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 18:05:48.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 18:05:49.530 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 18:05:49.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.070] ms
+29-Oct-2024 18:05:49.637 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:05:49.680 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1167] milliseconds
+29-Oct-2024 18:06:56.115 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:06:56.143 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 18:06:56.149 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 18:06:56.152 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:06:56.156 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:06:58.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 18:06:58.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 18:06:58.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 18:06:58.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 18:06:58.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 18:06:58.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 18:06:58.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 18:06:58.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 18:06:58.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 18:06:58.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:06:58.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 18:06:58.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 18:06:58.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 18:06:58.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 18:06:58.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 18:06:58.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 18:06:58.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 18:06:58.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:06:58.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 18:06:58.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 18:06:58.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 18:06:58.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=53203:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 18:06:58.289 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 18:06:58.291 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 18:06:58.291 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 18:06:58.291 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 18:06:58.296 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 18:06:58.502 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 18:06:58.521 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [392] milliseconds
+29-Oct-2024 18:06:58.564 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 18:06:58.564 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 18:06:58.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 18:06:59.548 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 18:06:59.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.091] ms
+29-Oct-2024 18:06:59.668 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:06:59.714 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1191] milliseconds
+29-Oct-2024 18:08:07.873 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:08:07.915 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 18:08:07.921 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 18:08:07.923 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:08:07.926 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:08:11.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 18:08:11.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 18:08:11.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 18:08:11.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 18:08:11.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 18:08:11.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 18:08:11.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 18:08:11.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 18:08:11.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 18:08:11.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:08:11.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 18:08:11.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 18:08:11.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 18:08:11.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 18:08:11.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 18:08:11.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 18:08:11.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 18:08:11.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:08:11.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 18:08:11.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 18:08:11.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 18:08:11.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=53215:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 18:08:11.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 18:08:11.268 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 18:08:11.269 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 18:08:11.269 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 18:08:11.274 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 18:08:11.496 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 18:08:11.518 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [429] milliseconds
+29-Oct-2024 18:08:11.570 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 18:08:11.570 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 18:08:11.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 18:08:12.713 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 18:08:12.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.234] ms
+29-Oct-2024 18:08:12.823 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:08:12.869 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1351] milliseconds
+29-Oct-2024 18:14:58.566 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:14:58.595 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 18:14:58.600 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 18:14:58.603 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:14:58.605 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:15:01.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 18:15:01.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 18:15:01.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 18:15:01.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 18:15:01.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 18:15:01.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 18:15:01.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 18:15:01.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 18:15:01.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 18:15:01.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:15:01.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 18:15:01.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 18:15:01.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 18:15:01.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 18:15:01.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 18:15:01.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 18:15:01.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 18:15:01.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:15:01.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 18:15:01.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 18:15:01.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 18:15:01.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=53273:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 18:15:01.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 18:15:01.381 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 18:15:01.382 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 18:15:01.382 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 18:15:01.388 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 18:15:01.616 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 18:15:01.631 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [427] milliseconds
+29-Oct-2024 18:15:01.675 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 18:15:01.675 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 18:15:01.685 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 18:15:02.683 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 18:15:02.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.131] ms
+29-Oct-2024 18:15:02.821 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:15:02.868 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1237] milliseconds
+29-Oct-2024 18:22:38.613 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:22:38.652 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 18:22:38.660 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 18:22:38.665 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:22:38.677 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:22:41.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 18:22:41.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 18:22:41.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 18:22:41.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 18:22:41.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 18:22:41.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 18:22:41.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 18:22:41.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 18:22:41.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 18:22:41.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:22:41.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 18:22:41.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 18:22:41.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 18:22:41.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 18:22:41.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 18:22:41.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 18:22:41.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 18:22:41.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:22:41.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 18:22:41.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 18:22:41.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 18:22:41.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=53381:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 18:22:41.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 18:22:41.430 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 18:22:41.430 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 18:22:41.430 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 18:22:41.434 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 18:22:41.638 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 18:22:41.657 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [402] milliseconds
+29-Oct-2024 18:22:41.698 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 18:22:41.698 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 18:22:41.706 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 18:22:42.646 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 18:22:42.753 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.045] ms
+29-Oct-2024 18:22:42.756 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:22:42.800 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1142] milliseconds
+29-Oct-2024 18:26:18.968 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:26:18.995 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 18:26:19.001 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 18:26:19.003 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:26:19.006 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:26:20.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 18:26:20.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 18:26:20.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 18:26:20.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 18:26:20.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 18:26:20.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 18:26:20.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 18:26:20.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 18:26:20.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 18:26:20.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:26:20.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 18:26:20.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 18:26:20.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 18:26:20.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 18:26:20.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 18:26:20.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 18:26:20.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 18:26:20.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:26:20.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 18:26:20.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 18:26:20.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 18:26:20.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=53431:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 18:26:20.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 18:26:20.694 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 18:26:20.694 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 18:26:20.694 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 18:26:20.699 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 18:26:20.912 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 18:26:20.929 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [418] milliseconds
+29-Oct-2024 18:26:20.970 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 18:26:20.970 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 18:26:20.980 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 18:26:21.956 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 18:26:22.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.083] ms
+29-Oct-2024 18:26:22.069 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:26:22.115 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1185] milliseconds
+29-Oct-2024 18:28:34.464 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:28:34.492 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 18:28:34.497 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 18:28:34.500 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:28:34.503 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:28:36.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 18:28:36.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 18:28:36.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 18:28:36.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 18:28:36.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 18:28:36.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 18:28:36.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 18:28:36.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 18:28:36.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 18:28:36.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:28:36.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 18:28:36.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 18:28:36.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 18:28:36.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 18:28:36.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 18:28:36.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 18:28:36.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 18:28:36.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:28:36.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 18:28:36.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 18:28:36.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 18:28:36.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=53460:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 18:28:36.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 18:28:36.224 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 18:28:36.225 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 18:28:36.225 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 18:28:36.230 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 18:28:36.479 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 18:28:36.497 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [464] milliseconds
+29-Oct-2024 18:28:36.540 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 18:28:36.541 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 18:28:36.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 18:28:37.533 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 18:28:37.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.104] ms
+29-Oct-2024 18:28:37.662 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:28:37.708 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1210] milliseconds
+29-Oct-2024 18:43:23.966 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:43:23.996 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 18:43:24.004 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 18:43:24.007 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:43:24.010 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:43:25.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 18:43:25.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 18:43:25.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 18:43:25.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 18:43:25.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 18:43:25.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 18:43:25.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 18:43:25.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 18:43:25.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 18:43:25.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:43:25.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 18:43:25.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 18:43:25.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 18:43:25.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 18:43:25.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 18:43:25.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 18:43:25.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 18:43:25.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:43:25.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 18:43:25.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 18:43:25.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 18:43:25.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=53639:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 18:43:25.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 18:43:25.607 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 18:43:25.608 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 18:43:25.608 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 18:43:25.613 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 18:43:25.845 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 18:43:25.862 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [415] milliseconds
+29-Oct-2024 18:43:25.896 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 18:43:25.897 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 18:43:25.904 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 18:43:26.855 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 18:43:26.964 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.058] ms
+29-Oct-2024 18:43:26.967 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:43:27.015 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1153] milliseconds
+29-Oct-2024 18:44:55.469 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:44:55.497 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 18:44:55.502 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 18:44:55.505 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:44:55.509 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:44:57.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 18:44:57.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 18:44:57.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 18:44:57.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 18:44:57.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 18:44:57.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 18:44:57.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 18:44:57.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 18:44:57.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 18:44:57.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:44:57.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 18:44:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 18:44:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 18:44:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 18:44:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 18:44:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 18:44:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 18:44:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 18:44:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 18:44:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 18:44:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 18:44:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=53672:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 18:44:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 18:44:57.089 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 18:44:57.090 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 18:44:57.090 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 18:44:57.095 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 18:44:57.294 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 18:44:57.313 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [396] milliseconds
+29-Oct-2024 18:44:57.358 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 18:44:57.358 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 18:44:57.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 18:44:58.346 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 18:44:58.465 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.096] ms
+29-Oct-2024 18:44:58.469 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 18:44:58.514 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1201] milliseconds
+29-Oct-2024 19:23:01.939 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 19:23:01.969 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 19:23:01.976 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 19:23:01.980 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 19:23:01.982 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 22:16:22.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 22:16:22.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 22:16:22.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 22:16:22.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 22:16:22.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 22:16:22.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 22:16:22.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 22:16:22.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 22:16:22.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 22:16:22.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 22:16:22.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 22:16:22.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 22:16:22.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 22:16:22.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 22:16:22.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 22:16:22.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 22:16:22.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 22:16:22.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 22:16:22.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 22:16:22.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 22:16:22.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 22:16:22.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=51683:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 22:16:22.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 22:16:22.808 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 22:16:22.808 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 22:16:22.808 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 22:16:22.834 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 22:16:23.141 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 22:16:23.161 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [604] milliseconds
+29-Oct-2024 22:16:23.206 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 22:16:23.206 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 22:16:23.214 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 22:16:24.514 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 22:16:24.649 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.432] ms
+29-Oct-2024 22:16:24.653 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 22:16:24.703 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1541] milliseconds
+29-Oct-2024 22:25:48.024 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 22:25:48.054 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 22:25:48.062 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 22:25:48.065 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 22:25:48.067 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 22:25:50.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 22:25:50.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 22:25:50.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 22:25:50.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 22:25:50.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 22:25:50.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 22:25:50.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 22:25:50.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 22:25:50.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 22:25:50.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 22:25:50.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 22:25:50.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 22:25:50.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 22:25:50.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 22:25:50.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 22:25:50.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 22:25:50.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 22:25:50.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 22:25:50.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 22:25:50.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 22:25:50.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 22:25:50.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=51999:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 22:25:50.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 22:25:50.227 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 22:25:50.227 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 22:25:50.227 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 22:25:50.235 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 22:25:50.465 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 22:25:50.486 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [478] milliseconds
+29-Oct-2024 22:25:50.534 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 22:25:50.534 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 22:25:50.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 22:25:51.539 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 22:25:51.649 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.104] ms
+29-Oct-2024 22:25:51.652 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 22:25:51.695 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1208] milliseconds
+29-Oct-2024 22:38:11.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 22:38:11.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 22:38:11.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 22:38:11.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 22:38:11.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 22:38:11.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 22:38:11.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 22:38:11.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 22:38:11.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 22:38:11.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 22:38:11.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 22:38:11.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 22:38:11.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 22:38:11.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 22:38:11.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 22:38:11.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 22:38:11.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 22:38:11.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 22:38:11.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 22:38:11.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 22:38:11.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 22:38:11.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=52257:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 22:38:11.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 22:38:11.855 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 22:38:11.856 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 22:38:11.856 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 22:38:11.860 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 22:38:12.076 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 22:38:12.086 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Fallo al iniciar el componente [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Falló la inicialización del manejador de protocolo
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:662)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 13 more
+29-Oct-2024 22:38:12.087 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [415] milliseconds
+29-Oct-2024 22:38:12.132 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 22:38:12.132 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 22:38:12.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 22:38:13.223 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 22:38:13.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.192] ms
+29-Oct-2024 22:38:13.340 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1253] milliseconds
+29-Oct-2024 22:38:13.345 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+29-Oct-2024 22:38:13.345 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 22:38:13.345 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 22:38:13.353 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 22:38:13.354 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 22:38:22.304 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/T03_BodegaLaEsquinita_P]
+29-Oct-2024 22:38:22.310 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [T03_BodegaLaEsquinita_P] registró el conductor JDBC [com.microsoft.sqlserver.jdbc.SQLServerDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+29-Oct-2024 22:38:22.317 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 22:38:22.912 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 22:38:22.950 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [633] ms
+29-Oct-2024 22:38:29.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.94
+29-Oct-2024 22:38:29.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 5 2024 13:35:59 UTC
+29-Oct-2024 22:38:29.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.94.0
+29-Oct-2024 22:38:29.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+29-Oct-2024 22:38:29.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+29-Oct-2024 22:38:29.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+29-Oct-2024 22:38:29.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-17
+29-Oct-2024 22:38:29.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       17.0.10+11-LTS-240
+29-Oct-2024 22:38:29.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+29-Oct-2024 22:38:29.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 22:38:29.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.94
+29-Oct-2024 22:38:29.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Oct-2024 22:38:29.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+29-Oct-2024 22:38:29.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+29-Oct-2024 22:38:29.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Oct-2024 22:38:29.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Oct-2024 22:38:29.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.94
+29-Oct-2024 22:38:29.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P
+29-Oct-2024 22:38:29.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\temp
+29-Oct-2024 22:38:29.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\logging.properties
+29-Oct-2024 22:38:29.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Oct-2024 22:38:29.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\lib\idea_rt.jar=52261:C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin
+29-Oct-2024 22:38:29.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+29-Oct-2024 22:38:29.781 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.3.1] con la versión APR [1.7.4].
+29-Oct-2024 22:38:29.781 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+29-Oct-2024 22:38:29.781 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+29-Oct-2024 22:38:29.785 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.14 4 Jun 2024]
+29-Oct-2024 22:38:29.993 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+29-Oct-2024 22:38:30.001 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Fallo al iniciar el componente [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Falló la inicialización del manejador de protocolo
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:662)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 13 more
+29-Oct-2024 22:38:30.002 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [375] milliseconds
+29-Oct-2024 22:38:30.046 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+29-Oct-2024 22:38:30.047 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.94]
+29-Oct-2024 22:38:30.055 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 22:38:31.025 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 22:38:31.129 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [1.072] ms
+29-Oct-2024 22:38:31.133 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1129] milliseconds
+29-Oct-2024 22:38:31.136 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+29-Oct-2024 22:38:31.137 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 22:38:31.137 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+29-Oct-2024 22:38:31.144 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 22:38:31.144 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Oct-2024 22:38:32.951 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/T03_BodegaLaEsquinita_P]
+29-Oct-2024 22:38:32.955 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml]
+29-Oct-2024 22:38:33.529 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Oct-2024 22:38:33.565 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\conf\Catalina\localhost\T03_BodegaLaEsquinita_P.xml] has finished in [611] ms
