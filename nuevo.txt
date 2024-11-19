@@ -1,0 +1,14 @@
+-- Crear base de datos
+IF EXISTS (SELECT * FROM sys.databases WHERE name = 'ROSAS_APAZA')
+BEGIN
+    DROP DATABASE ROSAS_APAZA;  -- Eliminar la base de datos si existe
+END
+
+CREATE DATABASE ROSAS_APAZA;  -- Crear la nueva base de datos
+GO  -- Asegúrate de que la instrucción anterior se complete antes de continuar
+
+USE ROSAS_APAZA;-- Usar la nueva base de datos
+
+
+
+asd
