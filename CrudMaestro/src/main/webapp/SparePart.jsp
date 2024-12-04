@@ -284,11 +284,11 @@
         <h1 class="text-center mb-4">Lista de Repuestos</h1>
 
         <div class="Busqueda mb-1">
-            <form action="${pageContext.request.contextPath}/listar" method="get" class="d-flex" onsubmit="return validateForm()">
-                <input type="text" id="nombre" name="nombre" class="form-control me-2" placeholder="Nombre del repuesto" aria-label="Nombre del repuesto" oninput="toggleButton()"/>
+            <form action="${pageContext.request.contextPath}/listar" method="get" class="d-flex" onsubmit="return validateSearchForm()">
+                <input type="text" id="search-name" name="nombre" class="form-control me-2" placeholder="Nombre del repuesto" aria-label="Nombre del repuesto" oninput="toggleSearchButton()"/>
 
-                <label for="brandId-B" class="form-label me-2">Marca:</label>
-                <select id="brandId-B" name="brandId" class="form-select me-2" onchange="toggleButton()">
+                <label for="search-brandId" class="form-label me-2">Marca:</label>
+                <select id="search-brandId" name="brandId" class="form-select me-2" onchange="toggleSearchButton()">
                     <option value="">Seleccione una marca</option>
                     <c:forEach var="brand" items="${brands}">
                         <option value="${brand.id}">${brand.name}</option>
@@ -831,14 +831,19 @@
         }
     });
 
-    // Código para permitir que la búsqueda funcione, poniendo al menos un campo seleccionado
-    function toggleButton() {
-        const nombre = document.getElementById("nombre").value.trim();
-        const marca = document.getElementById("brandId-B").value; // Cambiado a brandId
+    // Función para habilitar/deshabilitar el botón de búsqueda
+    function toggleSearchButton() {
+        const searchName = document.getElementById("search-name").value.trim();
+        const searchBrandId = document.getElementById("search-brandId").value;
         const searchButton = document.getElementById("searchButton");
 
         // Habilita el botón si al menos uno de los campos tiene un valor
-        searchButton.disabled = !(nombre || marca);
+        searchButton.disabled = !(searchName || searchBrandId);
+    }
+
+    // Función adicional para validar el formulario de búsqueda
+    function validateSearchForm() {
+        return !document.getElementById("searchButton").disabled;
     }
 
     document.getElementById('editRepuestoModal').addEventListener('hidden.bs.modal', function () {

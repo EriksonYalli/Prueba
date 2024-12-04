@@ -246,7 +246,7 @@
     <a href="${pageContext.request.contextPath}/listarCompraInactivo" class="btn btn-primary custom-btn">Restaurar tabla</a>
 
     <button type="button" class="btn btn-excel float-end me-2" onclick="exportInactivePartsToCSV()">
-      <i class="bi bi-file-earmark-spreadsheet"></i> Exportar Repuestos Inactivos a CSV
+      <i class="bi bi-file-earmark-spreadsheet"></i> Exportar a CSV
     </button>
 
     <!-- Botón para exportar la tabla a Excel -->
