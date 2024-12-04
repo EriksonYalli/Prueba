@@ -1,4 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.0/dist/sweetalert2.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.0/dist/sweetalert2.all.min.js"></script>
 
 <div class="container-fluid" id="container">
     <h1 class="text-center">Editar Cliente</h1>
@@ -84,3 +86,7 @@
         </div>
     </form>
 </div>
+
+
+
+

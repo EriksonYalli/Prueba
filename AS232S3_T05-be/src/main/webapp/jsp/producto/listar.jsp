@@ -87,6 +87,7 @@
         <thead class="table-dark">
         <tr>
             <th>ID</th>
+            <th>CodeBarra</th>
             <th>Nombre</th>
             <th>Descripción</th>
             <th>Marca</th>
@@ -105,6 +106,7 @@
         %>
         <tr>
             <td><%= product.getProductoID() %></td>
+            <td><%= product.getCodeBarra() %></td>
             <td><%= product.getNombre() %></td>
             <td><%= product.getDescripcion() %></td>
             <td><%= product.getMarca() %></td>
@@ -118,7 +120,9 @@
                 <a href="producto?action=editar&id=<%= product.getProductoID() %>" class="btn btn-warning btn-sm">
                     <i class="bi bi-pencil-square"></i>
                 </a>
-                <a href="javascript:void(0);" onclick="confirmarEliminacion(event, <%= product.getProductoID() %>)" class="btn btn-danger btn-sm">
+                <a href="javascript:void(0);"
+                   onclick="confirmarEliminacion(<%= product.getProductoID() %>)"
+                   class="btn btn-danger btn-sm">
                     <i class="bi bi-trash"></i>
                 </a>
             </td>
@@ -130,61 +134,60 @@
     </table>
 </div>
 
-<!-- JavaScript -->
-<script>
-    // Exportar tabla a Excel con SheetJS
-    function exportTableToExcel(tableID, filename = 'excel_data') {
-        var wb = XLSX.utils.book_new();
-        var ws = XLSX.utils.table_to_sheet(document.getElementById(tableID));
+    <!-- JavaScript -->
+    <script>
+        // Exportar tabla a Excel con SheetJS
+        function exportTableToExcel(tableID, filename = 'excel_data') {
+            var wb = XLSX.utils.book_new();
+            var ws = XLSX.utils.table_to_sheet(document.getElementById(tableID));
 
-        // Añadir la hoja al libro de trabajo
-        XLSX.utils.book_append_sheet(wb, ws, "Clientes");
+            // Añadir la hoja al libro de trabajo
+            XLSX.utils.book_append_sheet(wb, ws, "Clientes");
 
-        // Descargar el archivo Excel
-        XLSX.writeFile(wb, filename + ".xlsx");
-    }
+            // Descargar el archivo Excel
+            XLSX.writeFile(wb, filename + ".xlsx");
+        }
 
-    // Exportar tabla a PDF con jsPDF y AutoTable
-    function exportTableToPDF() {
-        const { jsPDF } = window.jspdf;
+        // Exportar tabla a PDF con jsPDF y AutoTable
+        function exportTableToPDF() {
+            const { jsPDF } = window.jspdf;
 
-        // Crear una instancia de jsPDF
-        var doc = new jsPDF();
+            // Crear una instancia de jsPDF
+            var doc = new jsPDF();
 
-        // Obtener la tabla de HTML y convertirla en PDF
-        var element = document.getElementById("productTable");
-        doc.autoTable({ html: element });
+            // Obtener la tabla de HTML y convertirla en PDF
+            var element = document.getElementById("productTable");
+            doc.autoTable({ html: element });
 
-        // Guardar el PDF con un nombre específico
-        doc.save("clientes_activos.pdf");
-    }
-</script>
+            // Guardar el PDF con un nombre específico
+            doc.save("clientes_activos.pdf");
+        }
+    </script>
 
     <script>
-        // Función para mostrar alerta de confirmación antes de eliminar
-        function confirmarEliminacion(event, id) {
-            event.preventDefault();  // Evitar que el enlace de eliminación se ejecute directamente
-
+        function confirmarEliminacion(productId) {
             Swal.fire({
                 title: '¿Estás seguro?',
-                text: "¡Esta acción no se puede deshacer!",
+                text: "¡No podrás revertir esto!",
                 icon: 'warning',
                 showCancelButton: true,
-                confirmButtonColor: '#28a745',
-                cancelButtonColor: '#d33',
-                confirmButtonText: 'Sí, eliminar',
+                confirmButtonColor: '#d33',
+                cancelButtonColor: '#3085d6',
+                confirmButtonText: 'Sí, eliminarlo',
                 cancelButtonText: 'Cancelar'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    // Si el usuario confirma, redirigimos a la URL de eliminación
-                    window.location.href = 'producto?action=eliminar&id=' + id;
+                    // Redirigir a la URL de eliminación
+                    window.location.href = 'producto?action=eliminar&id=' + productId;
                 }
             });
         }
     </script>
 
-<!-- jsPDF and SheetJS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.14/jspdf.plugin.autotable.min.js"></script>
-</head>
+
+
+    <!-- jsPDF and SheetJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.14/jspdf.plugin.autotable.min.js"></script>
+    </head>

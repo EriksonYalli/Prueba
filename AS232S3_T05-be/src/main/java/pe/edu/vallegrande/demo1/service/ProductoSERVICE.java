@@ -26,6 +26,7 @@ public class ProductoSERVICE {
             while (rs.next()) {
                 ProductoDTO producto = new ProductoDTO();
                 producto.setProductoID(rs.getInt("ProductoID"));
+                producto.setCodeBarra(rs.getString("CodeBarra"));
                 producto.setNombre(rs.getString("Nombre"));
                 producto.setDescripcion(rs.getString("Descripcion"));
                 producto.setMarca(rs.getString("Marca"));
@@ -55,6 +56,7 @@ public class ProductoSERVICE {
             while (rs.next()) {
                 ProductoDTO producto = new ProductoDTO();
                 producto.setProductoID(rs.getInt("ProductoID"));
+                producto.setCodeBarra(rs.getString("CodeBarra"));
                 producto.setNombre(rs.getString("Nombre"));
                 producto.setDescripcion(rs.getString("Descripcion"));
                 producto.setMarca(rs.getString("Marca"));
@@ -84,6 +86,7 @@ public class ProductoSERVICE {
             while (rs.next()) {
                 ProductoDTO producto = new ProductoDTO();
                 producto.setProductoID(rs.getInt("ProductoID"));
+                producto.setCodeBarra(rs.getString("CodeBarra"));
                 producto.setNombre(rs.getString("Nombre"));
                 producto.setDescripcion(rs.getString("Descripcion"));
                 producto.setMarca(rs.getString("Marca"));
@@ -104,19 +107,20 @@ public class ProductoSERVICE {
 
 
     public void agregarProducto(ProductoDTO producto) {
-        String sql = "INSERT INTO Productos (Nombre, Descripcion, Marca, Categoria, PrecioVenta, Descuento, Stock, Estatus, FechaIngreso) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO Productos (CodeBarra, Nombre, Descripcion, Marca, Categoria, PrecioVenta, Descuento, Stock, Estatus, FechaIngreso) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         try (Connection con = db.getCon();
              PreparedStatement ps = con.prepareStatement(sql)) {
 
-            ps.setString(1, producto.getNombre());
-            ps.setString(2, producto.getDescripcion());
-            ps.setString(3, producto.getMarca());
-            ps.setString(4, producto.getCategoria());
-            ps.setBigDecimal(5, producto.getPrecioVenta());
-            ps.setBigDecimal(6, producto.getDescuento());
-            ps.setInt(7, producto.getStock());
-            ps.setString(8, producto.getEstatus());
-            ps.setString(9, producto.getFechaIngreso());
+            ps.setString(1, producto.getCodeBarra());
+            ps.setString(2, producto.getNombre());
+            ps.setString(3, producto.getDescripcion());
+            ps.setString(4, producto.getMarca());
+            ps.setString(5, producto.getCategoria());
+            ps.setBigDecimal(6, producto.getPrecioVenta());
+            ps.setBigDecimal(7, producto.getDescuento());
+            ps.setInt(8, producto.getStock());
+            ps.setString(9, producto.getEstatus());
+            ps.setString(10, producto.getFechaIngreso());
 
             ps.executeUpdate();
             System.out.println("Producto agregado exitosamente.");
@@ -150,6 +154,7 @@ public class ProductoSERVICE {
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
                 productoDTO = new ProductoDTO();
+                productoDTO.setCodeBarra(rs.getString("CodeBarra"));
                 productoDTO.setProductoID(rs.getInt("ProductoID"));
                 productoDTO.setNombre(rs.getString("Nombre"));
                 productoDTO.setDescripcion(rs.getString("Descripcion"));
@@ -170,21 +175,22 @@ public class ProductoSERVICE {
     }
 
     public ProductoDTO actualizarProducto(ProductoDTO id) {
-        String sql = "UPDATE Productos SET Nombre = ?, Descripcion = ?, Marca = ?, Categoria = ?, PrecioVenta = ?, Descuento = ?, Stock = ?, Estatus = ?, FechaIngreso = ? WHERE ProductoID = ?";
+        String sql = "UPDATE Productos SET CodeBarra = ?, Nombre = ?, Descripcion = ?, Marca = ?, Categoria = ?, PrecioVenta = ?, Descuento = ?, Stock = ?, Estatus = ?, FechaIngreso = ? WHERE ProductoID = ?";
         ProductoDTO producto = new ProductoDTO();
         try (Connection con = db.getCon();
              PreparedStatement ps = con.prepareStatement(sql)) {
 
-            ps.setString(1, id.getNombre());
-            ps.setString(2, id.getDescripcion());
-            ps.setString(3, id.getMarca());
-            ps.setString(4, id.getCategoria());
-            ps.setBigDecimal(5, id.getPrecioVenta());
-            ps.setBigDecimal(6, id.getDescuento());
-            ps.setInt(7, id.getStock());
-            ps.setString(8, id.getEstatus());
-            ps.setString(9, id.getFechaIngreso());
-            ps.setInt(10, id.getProductoID());
+            ps.setString(1, id.getCodeBarra());
+            ps.setString(2, id.getNombre());
+            ps.setString(3, id.getDescripcion());
+            ps.setString(4, id.getMarca());
+            ps.setString(5, id.getCategoria());
+            ps.setBigDecimal(6, id.getPrecioVenta());
+            ps.setBigDecimal(7, id.getDescuento());
+            ps.setInt(8, id.getStock());
+            ps.setString(9, id.getEstatus());
+            ps.setString(10, id.getFechaIngreso());
+            ps.setInt(11, id.getProductoID());
 
             ps.executeUpdate();
             System.out.println("Producto actualizado exitosamente.");

@@ -21,6 +21,19 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="mb-3">
+                                <label for="codeBarra" class="form-label">
+                                    <i class="fas fa-barcode"></i> Código de Barra
+                                </label>
+                                <input type="text" class="form-control" id="codeBarra" name="codeBarra" maxlength="20" required>
+                                <div class="valid-feedback text-success"></div>
+                                <div class="invalid-feedback">El código de barra debe ser único y no superar los 20 caracteres.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
                                 <label for="nombre" class="form-label">
                                     <i class="fas fa-tag"></i> Nombre
                                 </label>

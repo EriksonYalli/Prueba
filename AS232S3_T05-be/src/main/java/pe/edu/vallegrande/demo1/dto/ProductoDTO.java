@@ -12,6 +12,7 @@ import java.math.BigDecimal;
 public class ProductoDTO {
 
     int productoID;
+    String codeBarra;
     String nombre;
     String descripcion;
     String marca;

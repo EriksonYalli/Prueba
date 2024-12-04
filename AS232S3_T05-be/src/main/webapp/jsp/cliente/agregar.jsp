@@ -1,6 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
+<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.0/dist/sweetalert2.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.0/dist/sweetalert2.all.min.js"></script>
 <style>
     .modal-content {
         border-radius: 15px;
@@ -183,62 +184,6 @@
     </div>
 </div>
 
-<!-- Modal flotante para "Error al agregar cliente" -->
-<div class="modal fade" id="modalErrorAgregarCliente" tabindex="-1" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content border-0 shadow-lg">
-            <div class="modal-body text-center p-4">
-                <!-- Ícono animado -->
-                <div class="text-danger mb-3">
-                    <i class="fas fa-exclamation-circle fa-5x animate-icon"></i>
-                </div>
-                <h5 class="fw-bold text-danger mb-3">¡Error al agregar cliente!</h5>
-                <p class="text-muted">Por favor, revisa los errores en el formulario y vuelve a intentarlo.</p>
-                <button type="button" class="btn btn-danger btn-lg mt-4 px-4" data-bs-dismiss="modal">
-                    <i class="fas fa-times-circle me-2"></i>Cerrar
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="modalAgregandoProducto" tabindex="-1" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content border-0 shadow-lg">
-            <div class="modal-body text-center p-4">
-                <!-- Ícono animado -->
-                <div class="text-primary mb-3">
-                    <i class="fas fa-spinner fa-spin fa-5x"></i>
-                </div>
-                <h5 class="fw-bold text-primary mb-3">Agregando producto...</h5>
-                <p class="text-muted">Por favor, espera un momento mientras procesamos tu solicitud.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="modalProductoAgregado" tabindex="-1" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content border-0 shadow-lg">
-            <div class="modal-body text-center p-4">
-                <!-- Ícono de éxito -->
-                <div class="text-success mb-3">
-                    <i class="fas fa-check-circle fa-5x animate-icon"></i>
-                </div>
-                <h5 class="fw-bold text-success mb-3">¡Producto agregado correctamente!</h5>
-                <p class="text-muted">El producto se ha registrado en el sistema exitosamente.</p>
-                <button type="button" class="btn btn-success btn-lg mt-4 px-4" data-bs-dismiss="modal">
-                    <i class="fas fa-thumbs-up me-2"></i>Aceptar
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -367,11 +312,29 @@
                 if (!valido) formularioValido = false;
             });
 
-            // Si hay algún error, mostrar el modal y bloquear el envío
-            if (!formularioValido) {
+            // Si todos los campos son válidos, mostrar la alerta de éxito
+            if (formularioValido) {
+                event.preventDefault(); // Evitar que se envíe el formulario automáticamente
+
+                // Alerta de SweetAlert2 para confirmar que el cliente fue agregado
+                Swal.fire({
+                    icon: 'success',
+                    title: '¡Cliente agregado correctamente!',
+                    text: 'El cliente ha sido registrado en el sistema.',
+                    confirmButtonText: 'Aceptar'
+                }).then(() => {
+                    // Si el usuario hace clic en "Aceptar", se envía el formulario
+                    formAgregarCliente.submit(); // Aquí se enviaría el formulario
+                });
+            } else {
                 event.preventDefault();
-                const modalError = new bootstrap.Modal(document.getElementById("modalErrorAgregarCliente"));
-                modalError.show();
+                // Alerta para completar los campos si algo no es válido
+                Swal.fire({
+                    icon: 'warning',
+                    title: '¡Complete todos los campos!',
+                    text: 'Por favor, revisa los campos del formulario antes de enviarlo.',
+                    confirmButtonText: 'Aceptar'
+                });
             }
         });
     });

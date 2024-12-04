@@ -136,13 +136,13 @@ public class ProductoServlet extends HttpServlet {
         }
 
         else if ("actualizar".equals(action)) {
-            System.out.println("actualizando producto");
             modificarProducto(request);
             response.sendRedirect("producto?action=listar"); // Redirige después de actualizar
         }
     }
 
     private void agregarProducto(HttpServletRequest request) {
+        String codeBarra = request.getParameter("codeBarra");
         String nombre = request.getParameter("nombre");
         String descripcion = request.getParameter("descripcion");
         String marca = request.getParameter("marca");
@@ -153,13 +153,14 @@ public class ProductoServlet extends HttpServlet {
         String estatus = request.getParameter("estatus");
         String fechaIngreso = request.getParameter("fechaIngreso");
 
-        ProductoDTO nuevoProducto = new ProductoDTO(0, nombre, descripcion, marca, categoria, precioVenta, descuento, stock, estatus, fechaIngreso);
+        ProductoDTO nuevoProducto = new ProductoDTO(0, codeBarra,  nombre, descripcion, marca, categoria, precioVenta, descuento, stock, estatus, fechaIngreso);
         productoService.agregarProducto(nuevoProducto);
     }
 
     private void modificarProducto(HttpServletRequest request) {
         ProductoDTO producto = new ProductoDTO();
         producto.setProductoID(Integer.parseInt(request.getParameter("id")));
+        producto.setCodeBarra(request.getParameter("codeBarra"));
         producto.setNombre(request.getParameter("nombre"));
         producto.setDescripcion(request.getParameter("descripcion"));
         producto.setMarca(request.getParameter("marca"));

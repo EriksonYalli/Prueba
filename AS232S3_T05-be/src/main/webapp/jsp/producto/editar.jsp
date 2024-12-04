@@ -2,6 +2,8 @@
 <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.0/dist/sweetalert2.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.0/dist/sweetalert2.all.min.js"></script>
 
+
+
 <div class="container-fluid" id="container">
     <!-- Título de la página -->
     <h1 class="text-center">Editar Producto</h1>
@@ -12,6 +14,19 @@
         <input type="hidden" name="id" value="${pepito123.productoID}">
 
         <div class="row">
+
+            <!-- Campo de Código de Barra -->
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="codeBarra" class="form-label">
+                        <i class="fas fa-barcode"></i> Código de Barra
+                    </label>
+                    <input type="text" class="form-control" id="codeBarra" name="codeBarra" maxlength="20" value="${pepito123.codeBarra}" required>
+                    <div class="valid-feedback text-success"></div>
+                    <div class="invalid-feedback">El código de barra debe ser único y no superar los 20 caracteres.</div>
+                </div>
+            </div>
+
             <!-- Campo de Nombre -->
             <div class="col-md-6">
                 <div class="mb-3">
@@ -160,152 +175,152 @@
 
 
 <!-- JavaScript para validaciones de los campos y mostrar modales -->
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const formEditarProducto = document.getElementById("formEditarProducto");
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const formEditarProducto = document.getElementById("formEditarProducto");
 
-                const validaciones = {
-                    nombre: /^[a-zA-ZÀ-ÿÑñ\s]{3,50}$/,
-                    descripcion: /^[^<>]{10,200}$/,
-                    precioVenta: (valor) => valor > 0,
-                    descuento: (valor) => valor >= 0 && valor <= 100,
-                    stock: (valor) => valor >= 0 && Number.isInteger(Number(valor)),
-                    fechaIngreso: (fecha) => {
-                        const fechaActual = new Date().toISOString().split("T")[0];
-                        return fecha <= fechaActual;
-                    },
-                    categoria: (inputs) => Array.from(inputs).some((input) => input.checked),
-                    marca: (valor) => valor !== ""
-                };
+        const validaciones = {
+            nombre: /^[a-zA-ZÀ-ÿÑñ\s]{3,50}$/,
+            descripcion: /^[^<>]{10,200}$/,
+            precioVenta: (valor) => valor > 0,
+            descuento: (valor) => valor >= 0 && valor <= 100,
+            stock: (valor) => valor >= 0 && Number.isInteger(Number(valor)),
+            fechaIngreso: (fecha) => {
+                const fechaActual = new Date().toISOString().split("T")[0];
+                return fecha <= fechaActual;
+            },
+            categoria: (inputs) => Array.from(inputs).some((input) => input.checked),
+            marca: (valor) => valor !== ""
+        };
 
-                function validarCampo(campo, valor, inputs = null) {
-                    if (campo === "categoria") {
-                        return validaciones.categoria(inputs);
-                    }
-                    if (typeof validaciones[campo] === "function") {
-                        return validaciones[campo](valor);
-                    }
-                    return validaciones[campo]?.test(valor) || false;
+        function validarCampo(campo, valor, inputs = null) {
+            if (campo === "categoria") {
+                return validaciones.categoria(inputs);
+            }
+            if (typeof validaciones[campo] === "function") {
+                return validaciones[campo](valor);
+            }
+            return validaciones[campo]?.test(valor) || false;
+        }
+
+        function setValidationState(element, isValid) {
+            if (isValid) {
+                element.classList.remove("is-invalid");
+                element.classList.add("is-valid");
+            } else {
+                element.classList.remove("is-valid");
+                element.classList.add("is-invalid");
+            }
+        }
+
+        const nombreInput = document.getElementById("nombre");
+        nombreInput.addEventListener("input", function () {
+            setValidationState(nombreInput, validarCampo("nombre", nombreInput.value));
+        });
+
+        const descripcionInput = document.getElementById("descripcion");
+        descripcionInput.addEventListener("input", function () {
+            setValidationState(descripcionInput, validarCampo("descripcion", descripcionInput.value));
+        });
+
+        const precioVentaInput = document.getElementById("precioVenta");
+        precioVentaInput.addEventListener("input", function () {
+            setValidationState(precioVentaInput, validarCampo("precioVenta", precioVentaInput.value));
+        });
+
+        const descuentoInput = document.getElementById("descuento");
+        descuentoInput.addEventListener("input", function () {
+            setValidationState(descuentoInput, validarCampo("descuento", descuentoInput.value));
+        });
+
+        const stockInput = document.getElementById("stock");
+        stockInput.addEventListener("input", function () {
+            setValidationState(stockInput, validarCampo("stock", stockInput.value));
+        });
+
+        const fechaIngresoInput = document.getElementById("fechaIngreso");
+        fechaIngresoInput.addEventListener("input", function () {
+            setValidationState(fechaIngresoInput, validarCampo("fechaIngreso", fechaIngresoInput.value));
+        });
+
+        const categoriaInputs = document.querySelectorAll('input[name="categoria"]');
+        categoriaInputs.forEach((input) =>
+            input.addEventListener("change", function () {
+                const isValid = validarCampo("categoria", null, categoriaInputs);
+                categoriaInputs.forEach((radio) => setValidationState(radio.closest(".mb-3"), isValid));
+            })
+        );
+
+        const marcaSelect = document.getElementById("marca");
+        marcaSelect.addEventListener("change", function () {
+            setValidationState(marcaSelect, validarCampo("marca", marcaSelect.value));
+        });
+
+        formEditarProducto.addEventListener("submit", function (event) {
+            event.preventDefault();
+            let formularioValido = true;
+
+            const campos = [
+                { id: "nombre", tipo: null },
+                { id: "descripcion", tipo: null },
+                { id: "precioVenta", tipo: null },
+                { id: "descuento", tipo: null },
+                { id: "stock", tipo: null },
+                { id: "fechaIngreso", tipo: null },
+                { id: "categoria", tipo: "categoria", inputs: categoriaInputs },
+                { id: "marca", tipo: null }
+            ];
+
+            campos.forEach((campo) => {
+                if (campo.tipo === "categoria") {
+                    const isValid = validarCampo(campo.tipo, null, campo.inputs);
+                    categoriaInputs.forEach((radio) => setValidationState(radio.closest(".mb-3"), isValid));
+                    if (!isValid) formularioValido = false;
+                } else {
+                    const input = document.getElementById(campo.id);
+                    const isValid = validarCampo(campo.id, input.value);
+                    setValidationState(input, isValid);
+                    if (!isValid) formularioValido = false;
                 }
-
-                function setValidationState(element, isValid) {
-                    if (isValid) {
-                        element.classList.remove("is-invalid");
-                        element.classList.add("is-valid");
-                    } else {
-                        element.classList.remove("is-valid");
-                        element.classList.add("is-invalid");
-                    }
-                }
-
-                const nombreInput = document.getElementById("nombre");
-                nombreInput.addEventListener("input", function () {
-                    setValidationState(nombreInput, validarCampo("nombre", nombreInput.value));
-                });
-
-                const descripcionInput = document.getElementById("descripcion");
-                descripcionInput.addEventListener("input", function () {
-                    setValidationState(descripcionInput, validarCampo("descripcion", descripcionInput.value));
-                });
-
-                const precioVentaInput = document.getElementById("precioVenta");
-                precioVentaInput.addEventListener("input", function () {
-                    setValidationState(precioVentaInput, validarCampo("precioVenta", precioVentaInput.value));
-                });
-
-                const descuentoInput = document.getElementById("descuento");
-                descuentoInput.addEventListener("input", function () {
-                    setValidationState(descuentoInput, validarCampo("descuento", descuentoInput.value));
-                });
-
-                const stockInput = document.getElementById("stock");
-                stockInput.addEventListener("input", function () {
-                    setValidationState(stockInput, validarCampo("stock", stockInput.value));
-                });
-
-                const fechaIngresoInput = document.getElementById("fechaIngreso");
-                fechaIngresoInput.addEventListener("input", function () {
-                    setValidationState(fechaIngresoInput, validarCampo("fechaIngreso", fechaIngresoInput.value));
-                });
-
-                const categoriaInputs = document.querySelectorAll('input[name="categoria"]');
-                categoriaInputs.forEach((input) =>
-                    input.addEventListener("change", function () {
-                        const isValid = validarCampo("categoria", null, categoriaInputs);
-                        categoriaInputs.forEach((radio) => setValidationState(radio.closest(".mb-3"), isValid));
-                    })
-                );
-
-                const marcaSelect = document.getElementById("marca");
-                marcaSelect.addEventListener("change", function () {
-                    setValidationState(marcaSelect, validarCampo("marca", marcaSelect.value));
-                });
-
-                formEditarProducto.addEventListener("submit", function (event) {
-                    event.preventDefault();
-                    let formularioValido = true;
-
-                    const campos = [
-                        { id: "nombre", tipo: null },
-                        { id: "descripcion", tipo: null },
-                        { id: "precioVenta", tipo: null },
-                        { id: "descuento", tipo: null },
-                        { id: "stock", tipo: null },
-                        { id: "fechaIngreso", tipo: null },
-                        { id: "categoria", tipo: "categoria", inputs: categoriaInputs },
-                        { id: "marca", tipo: null }
-                    ];
-
-                    campos.forEach((campo) => {
-                        if (campo.tipo === "categoria") {
-                            const isValid = validarCampo(campo.tipo, null, campo.inputs);
-                            categoriaInputs.forEach((radio) => setValidationState(radio.closest(".mb-3"), isValid));
-                            if (!isValid) formularioValido = false;
-                        } else {
-                            const input = document.getElementById(campo.id);
-                            const isValid = validarCampo(campo.id, input.value);
-                            setValidationState(input, isValid);
-                            if (!isValid) formularioValido = false;
-                        }
-                    });
-                    if (formularioValido) {
-                        // Mostrar la alerta de confirmación con 2 opciones
+            });
+            if (formularioValido) {
+                // Mostrar la alerta de confirmación con 2 opciones
+                Swal.fire({
+                    title: '¡Éxito!',
+                    text: '¿Seguro que deseas actualizar el producto?',
+                    icon: 'question',
+                    showCancelButton: true,  // Mostrar el botón de Cancelar
+                    confirmButtonText: 'Aceptar',
+                    cancelButtonText: 'Cancelar',
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    timer: 15000,  // Más tiempo para mostrar la alerta (15 segundos)
+                    reverseButtons: true  // Coloca el botón de cancelar a la izquierda
+                }).then((result) => {
+                    // Si el usuario hace clic en "Aceptar"
+                    if (result.isConfirmed) {
+                        formEditarProducto.submit();  // Enviar el formulario
                         Swal.fire({
-                            title: '¡Éxito!',
-                            text: '¿Seguro que deseas actualizar el producto?',
-                            icon: 'question',
-                            showCancelButton: true,  // Mostrar el botón de Cancelar
+                            title: '¡Producto actualizado!',
+                            text: 'El producto ha sido actualizado correctamente.',
+                            icon: 'success',
                             confirmButtonText: 'Aceptar',
-                            cancelButtonText: 'Cancelar',
-                            confirmButtonColor: '#3085d6',
-                            cancelButtonColor: '#d33',
-                            timer: 15000,  // Más tiempo para mostrar la alerta (15 segundos)
-                            reverseButtons: true  // Coloca el botón de cancelar a la izquierda
-                        }).then((result) => {
-                            // Si el usuario hace clic en "Aceptar"
-                            if (result.isConfirmed) {
-                                formEditarProducto.submit();  // Enviar el formulario
-                                Swal.fire({
-                                    title: '¡Producto actualizado!',
-                                    text: 'El producto ha sido actualizado correctamente.',
-                                    icon: 'success',
-                                    confirmButtonText: 'Aceptar',
-                                    timer: 5000  // Duración de la alerta de éxito
-                                });
-                            } else {
-                                // Si el usuario hace clic en "Cancelar", no hacer nada
-                                Swal.fire({
-                                    title: 'Actualización cancelada',
-                                    text: 'La actualización del producto ha sido cancelada.',
-                                    icon: 'info',
-                                    confirmButtonText: 'Aceptar'
-                                });
-                            }
+                            timer: 5000  // Duración de la alerta de éxito
+                        });
+                    } else {
+                        // Si el usuario hace clic en "Cancelar", no hacer nada
+                        Swal.fire({
+                            title: 'Actualización cancelada',
+                            text: 'La actualización del producto ha sido cancelada.',
+                            icon: 'info',
+                            confirmButtonText: 'Aceptar'
                         });
                     }
                 });
-            });
-        </script>
+            }
+        });
+    });
+</script>
 
 
 <style>
